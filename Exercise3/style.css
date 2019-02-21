@@ -1,0 +1,31 @@
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.rotate90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+div.profile_pic{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: inherit;
+  margin-right: 25px;
+}
+
+.bio{
+  position: absolute;
+  text-align: center;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(90deg);
+}
