@@ -1,0 +1,27 @@
+html {
+    background-color: rgba(50, 100, 200);
+  }
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: darkorange;
+}
+
+.box {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(50, 50, 50);
+}
+
+button{
+    text-align: center;
+    display: block;
+    background: linear-gradient(35deg, darkorange 40%, yellow 90%);
+    color: rgb(50, 50, 50);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+    margin: auto;
+  }
