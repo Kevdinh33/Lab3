@@ -1,10 +1,5 @@
 h1 {
-  font-size: 20px;
-  text-align: center;
-}
-
-h2 {
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -16,7 +11,7 @@ h2 {
   transform: rotate(90deg);
 }
 
-.profile_pic{
+div.profile_pic{
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: inherit;
@@ -33,11 +28,4 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   transform: rotate(90deg);
-}
-
-body
-{
-    background-image: image(backgroundpic.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
