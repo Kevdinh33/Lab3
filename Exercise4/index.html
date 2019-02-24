@@ -6,7 +6,23 @@
     </head>
     <body>
       <h1>CSS Manipulation</h1>
-      <div class="profile_pic">
+      <p id="txt">change this text</p>
+      <div class="box">
+        <h2>Border</h2>
+        Red Value (0-255):<br>
+        <input type="number" min="0" max="255" id="rValue">
+        <br>
+        Green Value (0-255):<br>
+        <input type="number" min="0" max="255" id="gValue">
+        <br>
+        Blue Value (0-255):<br>
+        <input type="number" min="0" max="255" id="bValue">
+        <br>
+        Width:<br>
+        <input type="number" id="width" min="0">
+        <br>
+        <button onclick="changer()">Changer</button>
+      </div>
     </body>
-
+    <script src= "script.js"></script>
 </html>
