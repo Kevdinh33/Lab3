@@ -1,4 +1,14 @@
+
+* {
+  box-sizing: border-box;
+}
+
 h1 {
+  text-shadow:
+  -1px -1px 0 white,
+ 1px -1px 0 white,
+ -1px 1px 0 white,
+  1px 1px 0 white;
   font-size: 20px;
   text-align: center;
 }
@@ -6,6 +16,15 @@ h1 {
 h2 {
   font-size: 40px;
   text-align: center;
+  color: slateblue;
+}
+h3 {
+  font-size: 20px;
+  color: slateblue;
+}
+
+p{
+  color: slateblue;
 }
 
 .rotate90 {
@@ -17,10 +36,10 @@ h2 {
 }
 
 .profile_pic{
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-left: inherit;
-  margin-right: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
 }
 
 .bio{
@@ -35,9 +54,71 @@ h2 {
   transform: rotate(90deg);
 }
 
-body
-{
-    background-image: image(backgroundpic.jpg);
+body {
+    background-image: url(backgroundpic.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 25%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 75%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.imgPlace {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   opacity: .9;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.video{
+  display: block;
+  margin: auto;
+}
+
+a:hover{
+  opacity: .5;
 }
