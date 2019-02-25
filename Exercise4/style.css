@@ -14,10 +14,16 @@ h1 {
 
 p{
   font-size: 40px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   border-style: solid;
   border-width: 10px;
+}
+
+.text{
+  font-size: 20px;
+  text-align: center;
+  color: white;
 }
 
 .box{
