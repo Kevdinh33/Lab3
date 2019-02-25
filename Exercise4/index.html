@@ -7,31 +7,37 @@
     <body>
       <h1>CSS Manipulation</h1>
       <p id="txt">Thanks M! You're a gem!</p>
-      <div class="box">
-        <h2>Border</h2>
-        Red Value (0-255):<br>
-        <input type="number" min="0" max="255" id="rValue">
-        <br>
-        Green Value (0-255):<br>
-        <input type="number" min="0" max="255" id="gValue">
-        <br>
-        Blue Value (0-255):<br>
-        <input type="number" min="0" max="255" id="bValue">
-        <br>
-        Width:<br>
-        <input type="number" id="width" min="0">
-        <br>
-        <h2>Background Color</h2>
-        Red Value (0-255):<br>
-        <input type="number" min="0" max="255" id="r2Value">
-        <br>
-        Green Value (0-255):<br>
-        <input type="number" min="0" max="255" id="g2Value">
-        <br>
-        Blue Value (0-255):<br>
-        <input type="number" min="0" max="255" id="b2Value">
-        <br>
+      <div class="box row">
+        <div class="leftcolumn">
+          <h2>Border</h2>
+          Red Value (0-255):<br>
+          <input type="number" min="0" max="255" id="rValue">
+          <br>
+          Green Value (0-255):<br>
+          <input type="number" min="0" max="255" id="gValue">
+          <br>
+          Blue Value (0-255):<br>
+          <input type="number" min="0" max="255" id="bValue">
+          <br>
+          Width:<br>
+          <input type="number" id="width" min="0">
+          <br>
+        </div>
+        <div class="centercolumn">
         <button onclick="changer()">Changer</button>
+        </div>
+        <div class="rightcolumn">
+          <h2>Background Color</h2>
+          Red Value (0-255):<br>
+          <input type="number" min="0" max="255" id="r2Value">
+          <br>
+          Green Value (0-255):<br>
+          <input type="number" min="0" max="255" id="g2Value">
+          <br>
+          Blue Value (0-255):<br>
+          <input type="number" min="0" max="255" id="b2Value">
+          <br>
+        </div>
       </div>
     </body>
     <script src= "script.js"></script>

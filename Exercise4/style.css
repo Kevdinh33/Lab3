@@ -1,10 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: navy;
+}
+
 h1 {
   font-size: 60px;
+  color: orange;
   text-align: center;
 }
 
 p{
-  font-size: 50px;
+  font-size: 40px;
   color: rgb(0, 0, 0);
   text-align: center;
   border-style: solid;
@@ -13,4 +22,41 @@ p{
 
 .box{
   text-align: center;
+}
+
+.leftcolumn {
+  float: left;
+  width: 33.3%;
+  text-align: right;
+  color: orange;
+}
+
+.centercolumn{
+  float: left;
+  width: 33.3%
+
+}
+
+.rightcolumn {
+  float: left;
+  width: 33.3%;
+  text-align: left;
+  color: orange;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button{
+  text-align: center;
+  display: block;
+  background: linear-gradient(35deg, darkorange 40%, yellow 90%);
+  color: rgb(50, 50, 50);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 16px;
+  margin: auto;
 }
